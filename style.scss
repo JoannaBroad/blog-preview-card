@@ -1,0 +1,44 @@
+//colours
+$black: #111111;
+$white: #ffffff;
+$yellow: #F4D04E;
+$grey: #7f7f7f;
+
+body {
+    background-color: $yellow;
+    height: 100%;
+}
+
+.card {
+  background-color: $white;
+  border-radius: 5%;
+  padding: 5%;
+  img{
+    width: 100%;
+    border-radius: 5%;
+  }
+  .blog-tag {
+    background-color: $yellow; 
+    width: fit-content;
+    padding: 1%;
+  }
+  .blog-author{
+    img{
+      height: auto;
+      width: 1.5rem;
+    }
+  }
+}
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: right;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

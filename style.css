@@ -1,1 +1,33 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #F4D04E;
+  height: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 5%;
+  padding: 5%;
+}
+.card img {
+  width: 100%;
+  border-radius: 5%;
+}
+.card .blog-tag {
+  background-color: #F4D04E;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1%;
+}
+.card .blog-author img {
+  height: auto;
+  width: 1.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: right;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
