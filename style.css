@@ -4,10 +4,16 @@ body {
   color: #111111;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   background-color: #ffffff;
   border-radius: 20px;
-  padding: 5%;
+  padding: 2rem;
   margin: 10%;
   max-width: 24rem;
   box-shadow: 8px 8px #111111;
