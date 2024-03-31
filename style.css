@@ -11,9 +11,13 @@ body {
   margin: 10%;
   max-width: 24rem;
   box-shadow: 8px 8px #111111;
+  transition: box-shadow 0.5s ease;
   outline: 1px solid #111111;
   font-family: "Figtree", sans-serif;
   font-weight: 500;
+}
+.card:hover {
+  box-shadow: 16px 16px #111111;
 }
 .card p {
   font-size: 1rem;
@@ -33,6 +37,10 @@ body {
   font-weight: 800;
   font-size: 1.5rem;
   margin: 1rem 0;
+  transition: color 0.5s ease;
+}
+.card h3:hover {
+  color: #F4D04E;
 }
 .card .info {
   color: #7f7f7f;
@@ -55,5 +63,10 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #111111;
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: #7f7f7f;
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
