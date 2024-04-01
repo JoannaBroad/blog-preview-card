@@ -21,7 +21,6 @@ main {
   outline: 1px solid #111111;
   font-family: "Figtree", sans-serif;
   font-weight: 500;
-  width: 384px;
 }
 .card:hover {
   box-shadow: 16px 16px #111111;
@@ -49,7 +48,7 @@ main {
 .card h1:hover {
   color: #F4D04E;
 }
-.card h3 {
+.card h2 {
   font-weight: 800;
   font-size: 1.5rem;
   margin: 1rem 0;
