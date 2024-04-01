@@ -4,6 +4,7 @@ $white: #ffffff;
 $yellow: #F4D04E;
 $grey: #7f7f7f;
 
+// fonts
 $main-font: "Figtree", sans-serif;
 
 body {
@@ -29,6 +30,7 @@ main {
   outline: 1px solid $black;
   font-family: $main-font;
   font-weight: 500;
+  width: 384px;
 
   &:hover {
     box-shadow: 16px 16px $black;
@@ -85,7 +87,19 @@ main {
     }
   }
 }
-
+@media (max-width: 375px) {
+  .card {
+    h1{
+      font-size: 1.25rem;
+    }
+    p{
+      font-size: 0.75rem
+    }
+    .info{
+      font-size: 0.8rem;
+    }
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: right;
